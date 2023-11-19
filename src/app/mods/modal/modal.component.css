@@ -1,0 +1,16 @@
+.actions:empty {
+    display: none;
+}
+
+.actions-default {
+    display: none;
+}
+
+.actions:empty + .actions-default {
+    display: block;
+}
+
+
+/* 
+    CSS rule always executes from top to bottom
+*/
